@@ -115,14 +115,13 @@ public class Nomina {
 			do {
 				System.out.println("¿Fueron por fuerza mayor? S/N");
 				horas=sc.next().charAt(0);
-				if(horas=='S' || horas=='s') {
-					fuerzaMayor=true;
-				}else if(horas=='N' || horas=='n') {
-					fuerzaMayor=false;
-				}else {
-					System.out.println("Introduce S o N");
-				}
+				//horas.toUpperCase(); //mirar esto 
 			}while(horas!='S' && horas!='N');
+				if(horas=='S') {
+					fuerzaMayor=true;
+				}else if(horas=='N') {
+					fuerzaMayor=false;
+				}
 		}
 	}
 	

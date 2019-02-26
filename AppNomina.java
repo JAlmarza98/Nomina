@@ -19,7 +19,6 @@ public class AppNomina {
 			aux=aux+complemento; 
 			System.out.println("Introduce todos los complementos salariales (introduce 0 para acabar): ");
 			complemento=sc.nextFloat();
-			//Esto no funciona, solo coge el primer valor
 		}
 		P1.setCs(aux);
 		System.out.println("Horas extras del mes: ");
